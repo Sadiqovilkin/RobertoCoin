@@ -1,0 +1,555 @@
+.navbar{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background: transparent;
+    position: fixed;
+    z-index: 999;
+}
+
+.navbar p:hover{
+    color: rgb(126, 3, 3);
+    cursor: pointer;
+}
+.navbar1 h3:hover{
+    cursor: pointer;
+}
+
+.navbar1{
+    width: 20%;
+}
+.navbar1-p{
+    padding-top: 1%;
+    padding-left: 4%;
+    text-transform: uppercase;
+}
+.navbar2{
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.navbar3{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+}
+
+.store{
+    display: flex;
+    flex-direction: row;
+}
+
+.heading-wrapper{
+    background-color: aliceblue;
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+.heading{
+    width: 88%;
+    margin-left: 6%;
+    margin-right: 6%;
+
+    display: flex;
+    flex-direction: row;
+   ;
+
+}
+
+.heading-text{
+    width: 30%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.text1{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10%;
+}
+
+.text1 p{
+    margin-right: 10px;
+}
+
+
+.text2 h2{
+    padding-bottom: 5%;
+}
+
+.text2 p{
+    padding-bottom: 5%;
+}
+
+
+
+.button-btn{
+    width: 40%;
+    border: 1px solid black;
+    padding: 0 20px ;
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.line{
+
+    border-bottom: 1px solid black ;
+    height: 0;
+    padding-top: 19%;
+    width: 39%;
+}
+
+.heading-img-wrapper{
+    width: 70%;
+    position: relative;
+}
+.image{
+    width: 100%;
+    height: 510px;
+    position: absolute;
+}
+.image img{
+   width: 100%;
+   height: 100%;
+   background:transparent ;
+}
+.elementor-colum{
+width: 100%;
+display: flex;
+flex-direction: row;
+}
+.colum-image{
+width: 50%;
+}
+.elementor{
+width: 50%;
+position: relative;
+}
+.elementor-widget{
+    padding-left: 5%;
+    padding-top: 10%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+.elementor-widget .elementor-line{
+    width: 14%;
+    border-bottom: 1px solid black;
+    height: 0;
+    padding-top:7% ;
+}
+.elementor-widget p{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.elementor h3{
+    padding-top: 15%; ;
+    padding-left: 5%;
+}
+.elementor h2{
+    padding-left: 5%;
+}
+.elementor .elementor-line{
+    margin-left: 5%;
+    width: 14%;
+    border-bottom: 1px solid black;
+}
+.colors{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-bottom: 8%;
+}
+.hover{
+    background-color: white;
+    position: absolute;
+    top: 60%;
+    transform: translateX(-17%);
+width: 117%;
+
+display: flex;
+flex-direction: row;
+}
+.hover-cont{
+   
+
+    text-align: center;
+width: 32%;
+}
+.hover-cont-text{
+    width: 68%;
+    padding-left: 14%;
+}
+.hover-cont-text h3{
+    display: none;
+}
+.hover-cont:hover h3 {
+    display: block;
+    transition: 2s;
+}
+.hover-cont2{
+   
+
+    text-align: center;
+width: 32%;
+}
+
+.hover-cont2:hover h3 {
+    display: block;
+    transition: 2s;
+}
+.elementor-section{
+    margin-top: 20%;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding-bottom: 10%;
+}
+.section-h3{
+    padding-top: 5%;
+text-align: center;
+padding-bottom: 5%  ;
+}
+.section-line{
+    margin-left: 47%;
+    width: 5%;
+    border-top: 1px black solid;
+}
+.section-branding{
+    width: 100%;
+display: flex;
+flex-direction: column;
+}
+.list1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.list2{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    
+}
+.BANGLES{
+   width: 24%; 
+   overflow: hidden;
+  
+}
+
+.image111{
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+.BANGLES img{
+  
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.BANGLES:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+.BRACELETS{
+    width: 24%; 
+    overflow: hidden;
+}
+.image222{
+    width: 100%;
+    overflow: hidden;
+    
+}
+.BRACELETS img{
+  
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.BRACELETS:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+.EARRINGS{
+    width: 24%; 
+    overflow: hidden;
+}
+.image333{
+    width: 100%;
+    overflow: hidden;
+    
+}
+.EARRINGS img{
+  
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.EARRINGS:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+.NECKLACES{
+    width: 24%; 
+    overflow: hidden;
+}
+.image444{
+    width: 100%;
+    overflow: hidden;
+    
+}
+.NECKLACES img{
+  
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.NECKLACES:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+.PENDANTS{
+    width: 24%; 
+    overflow: hidden;
+}
+.image555{
+    width: 100%;
+    overflow: hidden;
+    
+}
+.PENDANTS img{
+  
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.PENDANTS:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+.RINGS{
+    width: 24%; 
+    overflow: hidden;
+}
+.image666{
+    width: 100%;
+    overflow: hidden;
+    
+}
+.RINGS img{
+  
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+.RINGS:hover img{
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+.section-beauty{
+width: 100%;
+
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-top: 8%;
+
+}
+.section-beauty-img{
+    
+    margin-right: 5%;
+}
+.section-beauty-text1{
+    margin-top: 8%;
+    margin-left: 17%;
+    width: 30%;
+    height: 50%;
+    z-index: 999;
+}
+.section-beauty-text{
+    padding-right: 20%;
+   padding-top: 10%;
+   padding-bottom: 10%;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    /* background: transparent; */
+   
+text-align: left;
+}
+.section-text-btn{
+    width: 60%;
+
+display: flex;
+flex-direction: row;
+    justify-content: space-around;
+}
+
+.section-beauty-line{
+width: 15%;
+border-bottom: 1px solid black;
+padding-bottom: 14%;
+height: 1px;
+overflow: hidden;
+transition: 0.5s;
+}
+.section-text-btn:hover{
+    color: rgb(119, 5, 5);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.section-text-btn:hover .section-beauty-line{
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+.section-stories{
+width: 100%;
+display: flex;
+flex-direction: column;
+margin-top: 8%;
+}
+.section-stories-head{
+    width: 100%;
+    text-align: center;
+}
+.section-stories-body{
+    padding-top: 1%;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.section-stories-img1{
+    width: 29%;
+}
+.section-stories-hover h4:hover{
+    color:rgb(119, 5, 5) ;
+}
+.section-stories-foot{
+width: 15%;
+margin-left: 43%;
+
+}
+.section-stories-footer{
+   
+   
+    display: flex;
+flex-direction: row;
+}
+.section-stories-line{
+    margin-top: 12%;
+    margin-left: 10%;
+    width: 20%;
+    border-bottom: 1px solid black;
+    height: 10%;
+    transition: 00.5s;
+}
+.section-stories-foot:hover{
+    color: rgb(119, 5, 5);
+   
+}
+.section-stories-foot:hover .section-stories-line{
+    transform: scale(0.8);
+    transition: 0.5s; 
+    border-bottom: 1px solid rgb(119, 5, 5);
+}
+.section-footer{
+width: 100%;
+background-color: #f9f9f9fb;
+margin-top: 10%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding-top: 8%;
+padding-bottom: 10%;
+}
+
+.footer-concierge{
+width: 25%;
+}
+.footer-concierge a{
+    text-decoration: none;
+    color: black;
+   
+}
+.footer-concierge a:hover{
+    color: rgb(119, 5, 5);
+}
+.footer-newsletter{
+    width: 30%;
+   
+   
+}
+.footer-newsletter-text{text-align: center;}
+.form-name ,.form-surname{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 1%;
+    padding-right: 2%;
+}
+.form-email{
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 1%;
+    padding-right: 49%;
+}
+.form-select{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 1%;
+    padding-right: 51%; 
+    margin-bottom: 4%;
+}
+.form-btn{
+    padding-top: 4%;
+    padding-bottom: 4%;
+   background-color: #8E211F;
+   color: white;
+    text-align: center;
+    width: 92%;
+}
+.footer-legal{
+    width: 30%;
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+.span a{
+    text-decoration: none;
+    color: black;
+}
+.span a:hover{
+    color: rgb(119, 5, 5);
+}
+.footers{
+    width: 100%;
+    text-align: center;
+}
